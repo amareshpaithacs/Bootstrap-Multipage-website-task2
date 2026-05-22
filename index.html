@@ -1,0 +1,909 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home 1 || Itco Nextjs 14 Template</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="topbar d-none d-md-block">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-8">
+              <ul class="top-info d-flex align-items-center gap-4 mb-0">
+                <li>
+                  <i class="bi bi-geo-alt-fill"></i>Jones Street, New York, USA
+                </li>
+                <li>
+                  <i class="bi bi-envelope"></i
+                  ><a href="mailto:Info@example.com">Info@example.com</a>
+                </li>
+                <li>
+                  <i class="bi bi-telephone"></i
+                  ><a href="tel:+70264566579">+70 264 566 579</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-4 d-none d-lg-block">
+              <ul class="top-social d-flex justify-content-end gap-3 mb-0">
+                <li>
+                  <a href="#"><i class="bi bi-facebook"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="bi bi-twitter-x"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="bi bi-linkedin"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="bi bi-instagram"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <nav class="navbar navbar-expand-lg main-navbar" id="mainNavbar">
+        <div class="container-fluid nav-shell">
+          <a class="navbar-brand" href="index.html">
+            <img class="logo-dark" src="assets/images/image (1).png" alt="site-logo" /><img class="logo-light" src="assets/images/image.png" alt="site-logo" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#mainMenu"
+            aria-controls="mainMenu"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mainMenu">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="services.html">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="team.html">Team</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  >Blog <i class="bi bi-chevron-down"></i
+                ></a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="blog-details.html"
+                      >Blog Details</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+            <a class="btn theme-btn d-none d-xl-inline-flex" href="contact.html"
+              >Get A Free Quote</a
+            >
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <!-- Hero Section -->
+      <section class="hero-section">
+        <div class="container">
+          <div class="row align-items-center gy-5">
+            <div class="col-lg-6">
+              <div class="hero-content">
+                <span class="section-kicker">IT solutions for the new era</span>
+                <h1>Beautiful IT services for your success</h1>
+                <p>
+                  Leverage agile frameworks to provide a robust synopsis for
+                  high level overviews terative approaches bring table survival.
+                </p>
+                <div class="d-flex align-items-center flex-wrap gap-4">
+                  <a href="about.html" class="btn theme-btn">Read More</a>
+                  <a href="#" class="video-link"
+                    ><span><i class="bi bi-play-fill"></i></span>Play Intro</a
+                  >
+                </div>
+                <!-- Team Proof Pill -->
+                <div class="team-proof mt-5">
+                  <div class="avatar-stack d-flex">
+                    <img src="assets/images/image (2).png" alt="profile" />
+                    <img src="assets/images/image (3).png" alt="profile" />
+                    <img src="assets/images/image (4).png" alt="profile" />
+                    <img src="assets/images/image (5).png" alt="profile" />
+                    <img src="assets/images/image (6).png" alt="profile" />
+                  </div>
+                  <div class="team-proof-text">
+                    <h5 class="mb-0">36k+</h5>
+                    <span>Team Members</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="hero-images">
+                <!-- Background Wave Circle Image -->
+                <img class="hero-wave-circle" src="assets/circle-image.png" alt="Wave Circle Background" />
+                <!-- Arch-shaped image frame -->
+                <div class="hero-img-frame">
+                  <img
+                    class="hero-main"
+                    src="assets/images/image (7).png"
+                    alt="hero-img"
+                  />
+                </div>
+                <!-- Floating info card — bottom-right -->
+                <div class="hero-chart">
+                  <img
+                    src="assets/images/image (8).png"
+                    alt="Subjects Taught chart"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section class="about-section section-space">
+        <div class="container">
+          <div class="row align-items-center gy-5">
+            <div class="col-lg-6">
+              <div class="about-images">
+                <!-- Big Circle Image -->
+                <img
+                  class="about-main"
+                  src="assets/images/image (9).png"
+                  alt="about-img"
+                />
+                <!-- Small Circle Image -->
+                <img
+                  class="about-float"
+                  src="assets/images/image (11).png"
+                  alt="about-img"
+                />
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <span class="section-kicker">About Your Company</span>
+              <h2 class="section-title">
+                We Execute Our ideas From The Start to Finish
+              </h2>
+              <p class="section-text">
+                Solve Business Problems And Automate Workflows With Artificial
+                Work Intelligence-Based Solutions. Unlock The Hidden Power Of
+                The Data You Already Have And Hand Hampers The Creativity.
+              </p>
+              <ul class="check-list mb-4">
+                <li>
+                  <i class="bi bi-check-square-fill"></i>Development of
+                  Financial Models
+                </li>
+                <li>
+                  <i class="bi bi-check-square-fill"></i>Nifty team is a diverse
+                  network of consultants
+                </li>
+                <li>
+                  <i class="bi bi-check-square-fill"></i>Industry professionals
+                  with a global mindset
+                </li>
+              </ul>
+              <a href="about.html" class="btn theme-btn">Read More</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Services Section -->
+      <section class="services-section section-space light-bg">
+        <div class="container">
+          <div class="row align-items-center gy-5">
+            <div class="col-lg-6">
+              <span class="section-kicker">Our latest services</span>
+              <h2 class="section-title">
+                Our clients are the best at IT Management
+              </h2>
+              <p class="section-text">
+                Our Custom Software Design And Development Teams Can Design,
+                Build, Test, And Deliver A Product That Fits Both Your Vision
+                And With Market Demand. With Our Support, You Will Find
+                Customers, Build Income And Attract New Investors.
+              </p>
+              <a href="services.html" class="btn theme-btn"
+                >View All Services</a
+              >
+            </div>
+            <div class="col-lg-6">
+              <div class="row g-4">
+                <div class="col-sm-6">
+                  <article class="service-box">
+                    <i class="bi bi-code-slash"></i>
+                    <h4>Software Development</h4>
+                    <p>Indeed vanity excuse or mr lovers of on.</p>
+                    <a href="services.html"
+                      ><i class="bi bi-arrow-right"></i
+                    ></a>
+                  </article>
+                </div>
+                <div class="col-sm-6">
+                  <article class="service-box mt-lg-5">
+                    <i class="bi bi-graph-up-arrow"></i>
+                    <h4>Data Analysis</h4>
+                    <p>Indeed vanity excuse or mr lovers of on.</p>
+                    <a href="services.html"
+                      ><i class="bi bi-arrow-right"></i
+                    ></a>
+                  </article>
+                </div>
+                <div class="col-sm-6">
+                  <article class="service-box">
+                    <i class="bi bi-phone"></i>
+                    <h4>App Development</h4>
+                    <p>Indeed vanity excuse or mr lovers of on.</p>
+                    <a href="services.html"
+                      ><i class="bi bi-arrow-right"></i
+                    ></a>
+                  </article>
+                </div>
+                <div class="col-sm-6">
+                  <article class="service-box mt-lg-5">
+                    <i class="bi bi-gear"></i>
+                    <h4>Software Development</h4>
+                    <p>Indeed vanity excuse or mr lovers of on.</p>
+                    <a href="services.html"
+                      ><i class="bi bi-arrow-right"></i
+                    ></a>
+                  </article>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Newsletter Section -->
+      <section class="newsletter-section">
+        <div class="container-fluid px-0">
+          <div class="row g-0">
+            <div class="col-lg-7">
+              <div
+                class="video-panel"
+                style="background-image: url('assets/images/image (14).png')"
+              >
+                <a href="#" class="play-circle"
+                  ><i class="bi bi-play-fill"></i
+                ></a>
+              </div>
+            </div>
+            <div class="col-lg-5">
+              <div
+                class="newsletter-panel h-100 d-flex flex-column justify-content-center"
+              >
+                <h2>Subscribe to Our Newsletter</h2>
+                <p>
+                  It is a long established fact that a reader will be distracted
+                  by the readable content of a page when looking at its layout.
+                </p>
+                <form class="input-group">
+                  <input
+                    type="email"
+                    class="form-control"
+                    placeholder="Enter Your Email"
+                  />
+                  <button class="btn theme-btn" type="submit">
+                    Subscribe Now
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section class="project-section section-space">
+        <div class="container">
+          <div class="row mb-4">
+            <div class="col-lg-7">
+              <span class="section-kicker">Latest Project</span>
+              <h2 class="section-title">Let’s Looks Our Global Projects</h2>
+            </div>
+          </div>
+          <div class="row g-4">
+            <div class="col-md-6 col-lg-4">
+              <article class="project-card">
+                <img src="assets/images/image (12).png" alt="project" />
+                <div class="project-info">
+                  <h5><a href="services.html">Project Development</a></h5>
+                  <span>It Management</span>
+                  <a class="project-arrow" href="services.html"
+                    ><i class="bi bi-arrow-right"></i
+                  ></a>
+                </div>
+              </article>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <article class="project-card">
+                <img src="assets/images/image (13).png" alt="project" />
+                <div class="project-info">
+                  <h5><a href="services.html">Project Development</a></h5>
+                  <span>It Management</span>
+                  <a class="project-arrow" href="services.html"
+                    ><i class="bi bi-arrow-right"></i
+                  ></a>
+                </div>
+              </article>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <article class="project-card">
+                <img src="assets/images/image (18).png" alt="project" />
+                <div class="project-info">
+                  <h5><a href="services.html">Project Development</a></h5>
+                  <span>It Management</span>
+                  <a class="project-arrow" href="services.html"
+                    ><i class="bi bi-arrow-right"></i
+                  ></a>
+                </div>
+              </article>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <article class="project-card">
+                <img src="assets/images/image (19).png" alt="project" />
+                <div class="project-info">
+                  <h5><a href="services.html">Project Development</a></h5>
+                  <span>It Management</span>
+                  <a class="project-arrow" href="services.html"
+                    ><i class="bi bi-arrow-right"></i
+                  ></a>
+                </div>
+              </article>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <article class="project-card">
+                <img src="assets/images/image (20).png" alt="project" />
+                <div class="project-info">
+                  <h5><a href="services.html">Project Development</a></h5>
+                  <span>It Management</span>
+                  <a class="project-arrow" href="services.html"
+                    ><i class="bi bi-arrow-right"></i
+                  ></a>
+                </div>
+              </article>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <article class="project-card">
+                <img src="assets/images/image (21).png" alt="project" />
+                <div class="project-info">
+                  <h5><a href="services.html">Project Development</a></h5>
+                  <span>It Management</span>
+                  <a class="project-arrow" href="services.html"
+                    ><i class="bi bi-arrow-right"></i
+                  ></a>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Business Process Section -->
+      <section class="process-section section-space light-bg">
+        <div class="container">
+          <div class="row align-items-center gy-5">
+            <div class="col-lg-6">
+              <span class="section-kicker">Buisness Process</span>
+              <h2 class="section-title">
+                Easy Way Build Success your Buisness Pla
+              </h2>
+              <p class="section-text">
+                Solve Business Problems And Automate Workflows With Artificial
+                Intelligence-Based Solutions. Unlock The Hidden Power Of The
+                Data You Already Have And Hand.
+              </p>
+              <div class="progress-item">
+                <div class="d-flex justify-content-between">
+                  <h5>Productivity</h5>
+                  <span>80%</span>
+                </div>
+                <div class="progress">
+                  <div class="progress-bar" style="width: 80%"></div>
+                </div>
+              </div>
+              <div class="progress-item">
+                <div class="d-flex justify-content-between">
+                  <h5>Digital Marketing</h5>
+                  <span>75%</span>
+                </div>
+                <div class="progress">
+                  <div class="progress-bar" style="width: 75%"></div>
+                </div>
+              </div>
+              <div class="progress-item">
+                <div class="d-flex justify-content-between">
+                  <h5>Technology</h5>
+                  <span>90%</span>
+                </div>
+                <div class="progress">
+                  <div class="progress-bar" style="width: 90%"></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <img
+                class="process-img"
+                src="assets/images/image (10).png"
+                alt="about-img"
+              />
+            </div>
+          </div>
+          <div class="stats-wrap row g-0 text-center">
+            <div class="col-md-4">
+              <div class="stat-box">
+                <h3>36+</h3>
+                <p>Team Member</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="stat-box">
+                <h3>25K+</h3>
+                <p>Complete Project</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="stat-box">
+                <h3>99K+</h3>
+                <p>Client Review</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Pricing Section -->
+      <section class="pricing-section section-space">
+        <div class="container">
+          <div class="text-center mb-5">
+            <span class="section-kicker">Our Pricing</span>
+            <h2 class="section-title">Find the Right Plan</h2>
+          </div>
+          <div class="row g-4">
+            <div class="col-md-6 col-lg-4">
+              <article class="price-card">
+                <h5>Basic Plan</h5>
+                <div class="price"><sup>$</sup>110<span>/Per Month</span></div>
+                <a class="btn theme-btn" href="contact.html">Discover More</a>
+                <ul>
+                  <li>Key Words Optimized</li>
+                  <li>Top 10 Ranking Guarantee</li>
+                  <li>Weekly Reporting</li>
+                  <li>Key Words Optimized</li>
+                  <li>Top 10 Ranking Guarantee</li>
+                  <li>Unlimited users</li>
+                </ul>
+              </article>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <article class="price-card active">
+                <h5>Popular</h5>
+                <div class="price"><sup>$</sup>210<span>/Per Month</span></div>
+                <a class="btn theme-btn" href="contact.html">Discover More</a>
+                <ul>
+                  <li>Key Words Optimized</li>
+                  <li>Top 10 Ranking Guarantee</li>
+                  <li>Weekly Reporting</li>
+                  <li>Key Words Optimized</li>
+                  <li>Top 10 Ranking Guarantee</li>
+                  <li>Unlimited users</li>
+                </ul>
+              </article>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <article class="price-card">
+                <h5>Custom</h5>
+                <div class="price"><sup>$</sup>310<span>/Per Month</span></div>
+                <a class="btn theme-btn" href="contact.html">Discover More</a>
+                <ul>
+                  <li>Key Words Optimized</li>
+                  <li>Top 10 Ranking Guarantee</li>
+                  <li>Weekly Reporting</li>
+                  <li>Key Words Optimized</li>
+                  <li>Top 10 Ranking Guarantee</li>
+                  <li>Unlimited users</li>
+                </ul>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Brand Section -->
+      <section class="brand-section">
+        <div class="container">
+          <h5 class="text-center">
+            We have more than <span>270+</span> Happy Customers with
+            satisfaction
+          </h5>
+          <div
+            id="brandCarousel"
+            class="carousel slide mt-4"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="brand-row">
+                  <img src="assets/images/brand1.png" alt="brand" />
+                  <img src="assets/images/brand2.png" alt="brand" />
+                  <img src="assets/images/brand3.png" alt="brand" />
+                  <img src="assets/images/brand4.png" alt="brand" />
+                  <img src="assets/images/brand5.png" alt="brand" />
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="brand-row">
+                  <img src="assets/images/brand1.png" alt="brand" />
+                  <img src="assets/images/brand2.png" alt="brand" />
+                  <img src="assets/images/brand3.png" alt="brand" />
+                  <img src="assets/images/brand4.png" alt="brand" />
+                  <img src="assets/images/brand5.png" alt="brand" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Testimonials Section -->
+      <section class="testimonial-section section-space">
+        <div class="container">
+          <div class="text-center mb-5">
+            <span class="section-kicker">Clients Testimonials</span>
+            <h2 class="section-title">What Our Customers Say</h2>
+          </div>
+          <div
+            id="testimonialCarousel"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row g-4">
+                  <div class="col-lg-4">
+                    <article class="testimonial-card">
+                      <p>
+                        “I requested a UI update gig and received job excellent
+                        from Maria! talented young UI/UX designer who will beat
+                        your expectation! and quick feedback. Will definitely
+                        work with again!”
+                      </p>
+                      <div class="d-flex align-items-center gap-3">
+                        <img
+                          src="assets/images/image (15).png"
+                          alt="testimonial"
+                        />
+                        <div>
+                          <h5>Joshua Liddell</h5>
+                          <span>Company Owner</span>
+                        </div>
+                      </div>
+                    </article>
+                  </div>
+                  <div class="col-lg-4">
+                    <article class="testimonial-card">
+                      <p>
+                        “I requested a UI update gig and received job excellent
+                        from Maria! talented young UI/UX designer who will beat
+                        your expectation! and quick feedback. Will definitely
+                        work with again!”
+                      </p>
+                      <div class="d-flex align-items-center gap-3">
+                        <img
+                          src="assets/images/image (16).png"
+                          alt="testimonial"
+                        />
+                        <div>
+                          <h5>Arush Aggarwal</h5>
+                          <span>Senior Manager</span>
+                        </div>
+                      </div>
+                    </article>
+                  </div>
+                  <div class="col-lg-4">
+                    <article class="testimonial-card">
+                      <p>
+                        “I requested a UI update gig and received job excellent
+                        from Maria! talented young UI/UX designer who will beat
+                        your expectation! and quick feedback. Will definitely
+                        work with again!”
+                      </p>
+                      <div class="d-flex align-items-center gap-3">
+                        <img
+                          src="assets/images/image (17).png"
+                          alt="testimonial"
+                        />
+                        <div>
+                          <h5>Rosy Flower Gaggero</h5>
+                          <span>Ceo And Founder</span>
+                        </div>
+                      </div>
+                    </article>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row g-4">
+                  <div class="col-lg-4">
+                    <article class="testimonial-card">
+                      <p>
+                        “I requested a UI update gig and received job excellent
+                        from Maria! talented young UI/UX designer who will beat
+                        your expectation! and quick feedback. Will definitely
+                        work with again!”
+                      </p>
+                      <div class="d-flex align-items-center gap-3">
+                        <img
+                          src="assets/images/image (15).png"
+                          alt="testimonial"
+                        />
+                        <div>
+                          <h5>Joshua Liddell</h5>
+                          <span>Company Owner</span>
+                        </div>
+                      </div>
+                    </article>
+                  </div>
+                  <div class="col-lg-4">
+                    <article class="testimonial-card">
+                      <p>
+                        “I requested a UI update gig and received job excellent
+                        from Maria! talented young UI/UX designer who will beat
+                        your expectation! and quick feedback. Will definitely
+                        work with again!”
+                      </p>
+                      <div class="d-flex align-items-center gap-3">
+                        <img
+                          src="assets/images/image (16).png"
+                          alt="testimonial"
+                        />
+                        <div>
+                          <h5>Arush Aggarwal</h5>
+                          <span>Senior Manager</span>
+                        </div>
+                      </div>
+                    </article>
+                  </div>
+                  <div class="col-lg-4">
+                    <article class="testimonial-card">
+                      <p>
+                        “I requested a UI update gig and received job excellent
+                        from Maria! talented young UI/UX designer who will beat
+                        your expectation! and quick feedback. Will definitely
+                        work with again!”
+                      </p>
+                      <div class="d-flex align-items-center gap-3">
+                        <img
+                          src="assets/images/image (17).png"
+                          alt="testimonial"
+                        />
+                        <div>
+                          <h5>Rosy Flower Gaggero</h5>
+                          <span>Ceo And Founder</span>
+                        </div>
+                      </div>
+                    </article>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Blog Section -->
+      <section class="blog-section section-space light-bg">
+        <div class="container">
+          <div class="row mb-4">
+            <div class="col-lg-7">
+              <span class="section-kicker">Our Blogs</span>
+              <h2 class="section-title">Let's Checkout Our All Latest News</h2>
+            </div>
+          </div>
+          <div class="row g-4">
+            <div class="col-lg-6">
+              <article class="blog-feature">
+                <img src="assets/images/image (18).png" alt="blog" />
+                <div class="blog-body">
+                  <ul class="blog-meta d-flex gap-4">
+                    <li><i class="bi bi-person"></i>Admin</li>
+                    <li><i class="bi bi-calendar3"></i>October 2, 2023</li>
+                  </ul>
+                  <h3>
+                    <a href="blog-details.html"
+                      >Everything you need to learn about IT Solution for your
+                      Company.</a
+                    >
+                  </h3>
+                </div>
+              </article>
+            </div>
+            <div class="col-lg-6">
+              <div class="blog-list">
+                <article class="blog-mini d-sm-flex gap-4">
+                  <img src="assets/images/image (19).png" alt="blog" />
+                  <div>
+                    <ul class="blog-meta d-flex gap-3">
+                      <li><i class="bi bi-person"></i>Admin</li>
+                      <li><i class="bi bi-calendar3"></i>Dec 27, 2023</li>
+                    </ul>
+                    <h3>
+                      <a href="blog-details.html"
+                        >Everything you need to learn about IT Solution for your
+                        Company.</a
+                      >
+                    </h3>
+                    <a class="read-more" href="blog-details.html"
+                      >Read More <i class="bi bi-arrow-right"></i
+                    ></a>
+                  </div>
+                </article>
+                <article class="blog-mini d-sm-flex gap-4">
+                  <img src="assets/images/image (20).png" alt="blog" />
+                  <div>
+                    <ul class="blog-meta d-flex gap-3">
+                      <li><i class="bi bi-person"></i>Admin</li>
+                      <li><i class="bi bi-calendar3"></i>Dec 27, 2023</li>
+                    </ul>
+                    <h3>
+                      <a href="blog-details.html"
+                        >New Technology for System Secutiry to improve secutiry
+                        system.</a
+                      >
+                    </h3>
+                    <a class="read-more" href="blog-details.html"
+                      >Read More <i class="bi bi-arrow-right"></i
+                    ></a>
+                  </div>
+                </article>
+                <article class="blog-mini d-sm-flex gap-4">
+                  <img src="assets/images/image (21).png" alt="blog" />
+                  <div>
+                    <ul class="blog-meta d-flex gap-3">
+                      <li><i class="bi bi-person"></i>Admin</li>
+                      <li><i class="bi bi-calendar3"></i>Dec 27, 2023</li>
+                    </ul>
+                    <h3>
+                      <a href="blog-details.html"
+                        >Analytical Solutions lorem ispsum take a trivial
+                        example, which of us ever under.</a
+                      >
+                    </h3>
+                    <a class="read-more" href="blog-details.html"
+                      >Read More <i class="bi bi-arrow-right"></i
+                    ></a>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer-section">
+      <!-- Footer Widgets -->
+      <div class="container">
+        <div class="row gy-5">
+          <div class="col-md-6 col-xl-3">
+            <a href="index.html" class="footer-logo"
+              ><img src="assets/images/image (1).png" alt="site-logo"
+            /></a>
+            <p>
+              Mauris ut enim sit amet lacus ornare ullamcor. Praesent placerat
+              nequ puru rhoncu tincidunt odio ultrices. Sed odio feugiat feugiat
+              felis.
+            </p>
+            <div class="footer-social d-flex gap-2">
+              <a href="#"><i class="bi bi-facebook"></i></a>
+              <a href="#"><i class="bi bi-twitter-x"></i></a>
+              <a href="#"><i class="bi bi-linkedin"></i></a>
+              <a href="#"><i class="bi bi-instagram"></i></a>
+            </div>
+          </div>
+          <div class="col-md-6 col-xl-2 offset-xl-1">
+            <h4>Our Services</h4>
+            <ul class="footer-links">
+              <li><a href="services.html">Tech Solutions</a></li>
+              <li><a href="services.html">Digital Marketing</a></li>
+              <li><a href="services.html">Web Development</a></li>
+              <li><a href="services.html">IT Consulting</a></li>
+              <li><a href="services.html">Data Analytics</a></li>
+            </ul>
+          </div>
+          <div class="col-md-6 col-xl-2 offset-xl-1">
+            <h4>Useful Links</h4>
+            <ul class="footer-links">
+              <li><a href="about.html">What We Do</a></li>
+              <li><a href="team.html">Our Team</a></li>
+              <li><a href="about.html">About ITCO</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+              <li><a href="blog-details.html">Blog Details</a></li>
+            </ul>
+          </div>
+          <div class="col-md-6 col-xl-3">
+            <h4>Recent Post</h4>
+            <article class="footer-post d-flex gap-3">
+              <img src="assets/images/image (20).png" alt="blog" />
+              <div>
+                <span><i class="bi bi-calendar3"></i> Dec 27, 2023</span>
+                <h5>
+                  <a href="#">Efficiency redefined through technology.</a>
+                </h5>
+              </div>
+            </article>
+            <article class="footer-post d-flex gap-3">
+              <img src="assets/images/image (21).png" alt="blog" />
+              <div>
+                <span><i class="bi bi-calendar3"></i> Dec 27, 2023</span>
+                <h5><a href="#">IT Solution for your Company.</a></h5>
+              </div>
+            </article>
+          </div>
+        </div>
+        <hr />
+        <p class="copyright text-center mb-0">
+          © <a href="#">Qubohub</a> 2026. All Rights Reserved
+        </p>
+      </div>
+    </footer>
+
+    <a href="#" class="scroll-top" id="scrollTop" aria-label="Move to top"
+      ><i class="bi bi-chevron-up"></i
+    ></a>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      const mainNavbar = document.getElementById("mainNavbar");
+      const scrollTop = document.getElementById("scrollTop");
+
+      window.addEventListener("scroll", () => {
+        const active = window.scrollY > 140;
+        mainNavbar.classList.toggle("is-sticky", active);
+        scrollTop.classList.toggle("show", active);
+      });
+    </script>
+  </body>
+</html>
