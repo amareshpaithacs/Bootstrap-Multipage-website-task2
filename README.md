@@ -42,7 +42,7 @@ ITCO/
 │
 ├── assets/
 │   └── images/
-
+```
 ## How to Run
 
 1. Download the project
