@@ -26,8 +26,7 @@ Frontend clone of the ITCO website using HTML, CSS, and Bootstrap 5.
 * Mobile Friendly Layout
 * Reusable Components
 
-## Folder Structure
-
+## Project Structure
 ITCO/
 │
 ├── index.html
@@ -42,7 +41,7 @@ ITCO/
 │
 ├── assets/
 │   └── images/
-
+```
 ## How to Run
 
 1. Download the project
