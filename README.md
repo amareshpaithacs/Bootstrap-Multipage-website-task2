@@ -29,19 +29,19 @@ Frontend clone of the ITCO website using HTML, CSS, and Bootstrap 5.
 ## Folder Structure
 
 ITCO/
-
+│
 ├── index.html
 ├── about.html
 ├── services.html
 ├── team.html
 ├── contact.html
 ├── blog-details.html
-
+│
 ├── css/
-│ └── style.css
-
+│   └── style.css
+│
 ├── assets/
-│ └── images/
+│   └── images/
 
 ## How to Run
 
