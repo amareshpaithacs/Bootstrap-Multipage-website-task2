@@ -1,4 +1,4 @@
-# ITCO Website Clone
+# Bootstrap-Multipage-website-task2 (ITCO Website Clone)
 
 Frontend clone of the ITCO website using HTML, CSS, and Bootstrap 5.
 
@@ -28,20 +28,24 @@ Frontend clone of the ITCO website using HTML, CSS, and Bootstrap 5.
 
 ## Project Structure
 ```
-ITCO/
+Bootstrap-Multipage-website-task2
 │
 ├── index.html
 ├── about.html
 ├── services.html
+├── service-details.html
+├── projects.html
 ├── team.html
-├── contact.html
+├── blog.html
 ├── blog-details.html
-│
-├── css/
-│   └── style.css
+├── contact.html
 │
 ├── assets/
 │   └── images/
+│
+├── css/
+│   └── style.css
+
 ```
 ## How to Run
 
