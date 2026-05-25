@@ -1,4 +1,4 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -19,7 +19,9 @@
     <link href="css/style.css" rel="stylesheet" />
   </head>
   <body>
+    <!-- Header Section -->
     <header class="site-header">
+      <!-- Topbar -->
       <div class="topbar d-none d-md-block">
         <div class="container">
           <div class="row align-items-center">
@@ -58,6 +60,8 @@
         </div>
       </div>
 
+      <!-- Navigation Bar -->
+
       <nav class="navbar navbar-expand-lg main-navbar" id="mainNavbar">
         <div class="container-fluid nav-shell">
           <a class="navbar-brand" href="index.html">
@@ -82,11 +86,43 @@
               <li class="nav-item">
                 <a class="nav-link" href="about.html">About</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="services.html">Services</a>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  >Services <i class="bi bi-chevron-down"></i
+                ></a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="services.html">Services</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="service-details.html"
+                      >Service Details</a
+                    >
+                  </li>
+                </ul>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="team.html">Team</a>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  >Pages <i class="bi bi-chevron-down"></i
+                ></a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="team.html">Team</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="projects.html">Projects</a>
+                  </li>
+                </ul>
               </li>
               <li class="nav-item dropdown">
                 <a
@@ -98,6 +134,9 @@
                   >Blog <i class="bi bi-chevron-down"></i
                 ></a>
                 <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="blog.html">Blog</a>
+                  </li>
                   <li>
                     <a class="dropdown-item" href="blog-details.html"
                       >Blog Details</a
@@ -116,7 +155,7 @@
         </div>
       </nav>
     </header>
-    <!-- Breadcrumb -->
+    <!-- Breadcrumb Section -->
     <section class="breadcrumb-sec">
       <div class="container">
         <h1 class="breadcrumb-title">Contact Us</h1>
@@ -141,6 +180,7 @@
     </div>
 
     <!-- Contact Section -->
+
     <section class="contact-section sec-ptb">
       <div class="container">
         <div class="row g-5 align-items-start">
@@ -233,7 +273,7 @@
       </div>
     </section>
 
-    <!-- Footer -->
+    <!-- Footer Section -->
     <footer class="footer-sec">
       <!-- Footer Widgets -->
       <div class="sec-pt">
@@ -261,11 +301,11 @@
                 <h4 class="footer-widget-title">Quick Links</h4>
                 <div class="footer-links">
                   <ul>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="team.html">Team</a></li>
-                    <li><a href="blog-details.html">Blog Details</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="about.html">What We Do</a></li>
+                    <li><a href="team.html">Our Team</a></li>
+                    <li><a href="services.html">Our Services</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="blog.html">Blog</a></li>
                   </ul>
                 </div>
               </div>
@@ -275,11 +315,11 @@
                 <h4 class="footer-widget-title">Our Services</h4>
                 <div class="footer-links">
                   <ul>
-                    <li><a href="services.html">IT Management</a></li>
-                    <li><a href="services.html">Cloud Services</a></li>
-                    <li><a href="services.html">Cyber Security</a></li>
-                    <li><a href="services.html">Web Development</a></li>
-                    <li><a href="services.html">Data Analytics</a></li>
+                    <li><a href="service-details.html">Tech Solutions</a></li>
+                    <li><a href="service-details.html">Digital Marketing</a></li>
+                    <li><a href="service-details.html">Web Development</a></li>
+                    <li><a href="service-details.html">IT Consulting</a></li>
+                    <li><a href="service-details.html">Data Analytics</a></li>
                   </ul>
                 </div>
               </div>
@@ -307,7 +347,7 @@
       </div>
     </footer>
 
-    <!-- Scroll to Top -->
+    <!-- Scroll To Top Button -->
     <a href="#" class="scroll-top" id="scrollTop" aria-label="Move to top"
       ><i class="bi bi-chevron-up"></i
     ></a>
